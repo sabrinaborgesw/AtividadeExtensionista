@@ -1,0 +1,135 @@
+/* Cabeçalho */
+.header {
+    background-color: #283E50;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: #fff;
+    color: #2E4A5A;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+/* Seção Doação */
+.doacao {
+    padding: 40px;
+    background-color: #fff;
+
+}
+
+.doacao h2 {
+    background-color: #2E4A5A;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.doacao-msg {
+    color: #333;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+.doacao-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-row button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #E0E0E0;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.doacao-form input {
+    width: 100%;
+    max-width: 600px; /* Define uma largura máxima para o campo */
+    padding: 15px;
+    border: none;
+    background-color: #E0E0E0;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+    margin: 0 auto 20px auto; /* Centraliza o campo */
+    display: block; /* Garante que o input seja um elemento de bloco */
+}
+
+
+.qr-code {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    border: none;
+    background-color: #E0E0E0;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.qr-code span {
+    color: #333;
+}
